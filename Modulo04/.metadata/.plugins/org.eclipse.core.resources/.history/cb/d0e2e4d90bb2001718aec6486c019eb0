@@ -1,0 +1,25 @@
+package br.com.seniorsolution.jdbc;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import br.com.seniorsolution.entidades.Disciplina;
+
+public class DisciplinaMapper implements RowMapper<Disciplina> {
+
+	@Override
+	public Disciplina mapRow(ResultSet rs, int arg1) throws SQLException {
+		// TODO Auto-generated method stub
+		Disciplina disciplina = new Disciplina();
+		
+		disciplina.setId(id);
+		disciplina.setDescricao(descricao);
+		disciplina.setCh(ch);
+		disciplina.setCurso(curso);
+		
+		return disciplina;
+	}
+	
+}

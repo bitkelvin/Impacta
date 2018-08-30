@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta charset="UTF-8"></meta>
+	<title>Lista de Livros</title>
+</h:head>
+<h:body>
+	<ui:composition template="layout.xhtml">
+		<ui:define name="conteudo">
+
+			<h1>Lista de Livros</h1>
+			<h:form>
+				<h:dataTable value="#{bLivro.listaLivros}" var="livro"
+					styleClass="tabela" headerClass="cabecalho"
+					columnClasses="col1,col2,col3,col4,col1">
+					<h:column>
+						<f:facet name="header">
+							<b>CÓDIGO</b>
+						</f:facet>
+						<h:outputText value="#{livro.codigo}" />
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<b>TÍTULO</b>
+						</f:facet>
+						<h:outputText value="#{livro.titulo}" />
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<b>AUTOR</b>
+						</f:facet>
+						<h:outputText value="#{livro.autor}" />
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<b>DATA PUBL.</b>
+						</f:facet>
+						<h:outputText value="#{livro.dataPublicacao}">
+							<f:convertDateTime pattern="dd/MM/yyyy" />
+						</h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<b>PREÇO</b>
+						</f:facet>
+						<h:outputText value="#{livro.preco}">
+							<f:convertNumber type="currency" />
+						</h:outputText>
+					</h:column>
+
+					<h:column>
+						<f:facet name="header">
+							<b>IMAGEM</b>
+						</f:facet>
+						<h:graphicImage value="imagem?id=#{livro.codigo}" width="150" />
+					</h:column>
+
+				</h:dataTable>
+				
+				<p:separator ></p:separator>
+			</h:form>
+		</ui:define>
+	</ui:composition>
+</h:body>
+</html>

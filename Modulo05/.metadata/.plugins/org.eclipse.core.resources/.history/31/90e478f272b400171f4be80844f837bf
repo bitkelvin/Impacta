@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta charset="UTF-8"></meta>
+	<title>Lista de Livros</title>
+</h:head>
+<h:body>
+	<ui:composition template="layout.xhtml">
+		<ui:define name="conteudo">
+			
+			<f:facet name="">
+				<h1>Lista de Livros</h1>
+			</f:facet>
+				
+			<h:form>				
+				<p:dataTable value="#{bLivro.listaLivros}" var="livro">
+					<p:column>
+						<f:facet name="header">
+							<b>CÓDIGO</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.codigo}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>TITULO</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.titulo}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>AUTOR</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.autor}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>DATAPUB</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.dataPublicacao}">
+						<f:convertDateTime pattern="dd/MM/yyyy" />
+						</p:outputLabel>
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>PRECO</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.preco}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>IMAGEM</b>
+						</f:facet>
+						<p:graphicImage value="imagem?id=#{livro.codigo}" width="150"/>
+					</p:column>
+				</p:dataTable>
+				
+			</h:form>
+		</ui:define>
+	</ui:composition>
+</h:body>
+</html>

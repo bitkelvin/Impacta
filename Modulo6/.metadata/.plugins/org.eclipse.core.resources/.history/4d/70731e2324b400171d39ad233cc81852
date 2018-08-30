@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exemplo usando box</title>
+<style type="text/css">
+	.modo{
+		width: 200px;
+		height: 200px;
+		padding-left: 150px;
+		border: 3px solid blue;
+	}
+	
+	p{
+		background-color: yellow;	
+	}
+
+</style>
+</head>
+<body>
+	<div class="modo"></div>
+</body>
+</html>

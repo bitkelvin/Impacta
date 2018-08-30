@@ -1,0 +1,23 @@
+*{
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body{
+	background-color: black
+
+.container{
+	margin: 80px 50px 50px 50px;
+}
+
+/* estilos para o rodapé
+footer{
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	padding: 5px;
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	background-color: #828282;	
+}*/

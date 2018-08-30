@@ -1,0 +1,10 @@
+package br.com.seniorsolution.Entidades;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="produto")
+public class Produto {
+
+}

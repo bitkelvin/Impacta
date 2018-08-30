@@ -1,0 +1,113 @@
+/**
+ * Array de Estados
+ */
+var assuntos = [
+	{ "id": 1, "descricao": "Reclamações"},
+	{ "id": 2, "descricao": "Pedidos"},
+	{ "id": 3, "descricao": "Informações"}
+];
+
+$(document).ready(function(){
+	//preenche o elemento <select id="estado"> com os estados
+	$.each(assuntos, function(i, assunto){
+		$("#assunto").append($("<option>", {
+			value: assunto.id,
+			text: assunto.descricao
+		}));
+	});
+	
+	$("#botao").click(function(){
+		var nome = $("#nome").val();
+		var email = $("#email").val();
+		var assunto = assuntos.filter(val => val.id == $("#assunto").val())[0];
+		var comentario = $("#comente").val();
+		
+		alert(`nome: ${nome}, email: ${email}, assunto: ${assunto.descricao}, comentario: ${comentario}`);
+	});
+});
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var request, db;
+
+//abrindo(ou criando) o banco de dados
+request = window.indexedDB.open("DBCadastros", 1);
+
+//eventos usados ao abrir o banco de dados
+request.onerror = function(event){
+	$("#mensagemdb").html("Erro ao abrir o banco de dados");
+}
+
+request.onsuccess = function(event){
+	$("#mensagemdb").html("Banco de Dados aberto");
+	db = event.target.result;
+	
+	listarBegin();
+	
+}
+
+request.onupgradeneeded = function(event){
+	$("#mensagemdb").html("Banco de Dados preparado");
+	db = event.target.result;
+	
+	var objectStore = db.createObjectStore("cadastros", { keyPath: "cpf"});
+}
+
+
+
+//evento para incluir um nobvo registro
+$("#btnEnviar").click(function(){
+	var vcpf = $("#cpf").val();
+	var vnome = $("#nome").val();
+	var vemail = $("#email").val();
+	var vtelefone = $("#telefone").val();
+	
+	var transaction = db.transaction(["cadastros"],"readwrite");
+	
+	transaction.oncomplete = function(event) {
+		$("#mensagemdb").html("Registro incluído :)");
+	}
+	transaction.onerror = function(event) {
+		$("#mensagemdb").html("Ocorreu um erro :(");
+	}
+	
+	var objectStore = transaction.objectStore("cadastros");
+	
+	objectStore.add({
+		cpf: vcpf,
+		nome: vnome,
+		email: vemail,
+		telefone: vtelefone
+	});
+	
+	objectStore.openCursor().onsuccess = function(event) {
+		var cursor = event.target.result;
+		
+		if(cursor){
+			$("#listaCadastro").append("<li>" + 
+					cursor.value.cpf + " - " + cursor.value.nome + " - " + 
+					cursor.value.email + " - " + cursor.value.telefone + "</li>");
+			cursor.continue();
+		}
+	}
+
+});
+
+function listarBegin() {
+	
+	var transaction = db.transaction(["cadastros"],
+	"readonly");
+	
+	var objectStore = transaction.objectStore("cadastros");
+	
+	objectStore.openCursor().onsuccess = function(event) {
+		var cursor = event.target.result;
+		
+		if(cursor){
+			$("#listaCadastro").append("<li>" + 
+					cursor.value.cpf + " - " + cursor.value.nome + " - " + 
+					cursor.value.email + " - " + cursor.value.telefone + "</li>");
+			cursor.continue();
+		}
+	}
+}

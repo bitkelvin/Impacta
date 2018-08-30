@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Produtos</title>
+</head>
+<body>
+	<h1>Cadastro de Produtos</h1>
+	<form action="clientes" method="post">
+		<label for="codigo">Código:</label><br/>
+		<input type="text" name="codigo" id="codigo" size="5"/><br/>
+		
+		<label for="empresa">Descrição:</label><br/>
+		<input type="text" name="empresa" id="empresa" size="20"/><br/>
+		
+		<label for="empresa">Preço:</label><br/>
+		<input type="text" name="empresa" id="empresa" size="20"/><br/>
+		
+		<label for="empresa">Fabricante:</label><br/>
+		<input type="text" name="empresa" id="empresa" size="20"/><br/>
+	
+		<input type="submit" value="Enviar">
+	</form>
+	${mensagem}
+</body>
+</html>

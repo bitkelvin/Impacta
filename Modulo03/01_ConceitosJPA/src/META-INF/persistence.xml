@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	
+	<!-- Cada persistence-unit conecta  a um banco de dados - podem ter várias em um mesmo xml -->
+	<persistence-unit name="jpaForum" transaction-type="RESOURCE_LOCAL">
+	<!-- RESOURCE_LOCAL indica que cada projeto terá seu próprio persistence.xml -->
+	<!-- <jta-data-source>aqui iria o arquivo com as informações no servidor se fosse jta em vez reource_local
+							</jta-data-source> -->
+		<class>br.com.seniorsolution.entidade.Forum</class>
+		<class>br.com.seniorsolution.entidade.Usuario</class>
+		
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.format_sql" value="true"/>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+	<!-- modulo03_dbForum.hibernate-sequence doesn't exist: MySQLDialect em vez de MYSQLInnoDialect antes
+	- depende de versão do eclipse, etc -->
+		
+			<!-- String de conexão -->
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/modulo03_dbforum"/>
+			
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value="Imp@ct@"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+	
+	
+	
+</persistence>

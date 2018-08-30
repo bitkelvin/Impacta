@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo JQuery 02</title>
+	<style type="text/css">
+	
+	.ok{
+		border: 1px solid green;
+		background-color: lightgreen;
+		color: green;
+		padding: 20px;
+		width: 100px;
+	}
+	.erro{
+		border: 1px solid red;
+		background-color: lightcoral;
+		color: red;
+		padding: 20px;
+		width: 100px;
+	}
+	
+	</style>
+
+</head>
+<body>
+
+</body>
+</html>

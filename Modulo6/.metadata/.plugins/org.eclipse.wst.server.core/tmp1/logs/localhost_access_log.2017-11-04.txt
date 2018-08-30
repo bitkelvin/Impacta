@@ -1,0 +1,15 @@
+127.0.0.1 - - [04/Nov/2017:03:07:25 -0200] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:27 -0200] "GET /07_GestaoProdutos/ HTTP/1.1" 200 2295
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/css/menu.css HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/css/produtos.css HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/css/estilos.css HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/js/script.js HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/img/1.jpg HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/img/2.jpg HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/img/3.jpg HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:31 -0200] "GET /07_GestaoProdutos/js/script.js HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:35 -0200] "GET /07_GestaoProdutos/cadastro.jsp HTTP/1.1" 200 1785
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:35 -0200] "GET /07_GestaoProdutos/css/estilos.css HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:35 -0200] "GET /07_GestaoProdutos/css/menu.css HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:35 -0200] "GET /07_GestaoProdutos/css/produtos.css HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Nov/2017:03:07:45 -0200] "GET /07_GestaoProdutos/consulta.jsp HTTP/1.1" 200 503

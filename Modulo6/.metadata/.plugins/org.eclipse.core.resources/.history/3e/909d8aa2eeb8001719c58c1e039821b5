@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Produtos</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="css/estilos.css" rel="stylesheet">
+<link href="css/menu.css" rel="stylesheet">
+<link href="css/produtos.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="menu" id="menuTopo">
+				<li><a href="#"><span class="glyphicon glyphicon-gift"></span></a></li>
+				<li><a href="cadastro.jsp">Cadastro de Produtos</a></li>
+				<li><a href="consulta.jsp">Buscar</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+
+		<h1 style="text-align: center;">Cadastro de Produtos</h1>
+		<form action="produtos" method="post">
+			<label for="codigo">Código:</label><br /> 
+			<input type="number" name="codigo" id="codigo" size="5" /><br /> 
+			<label for="descricao">Descrição:</label><br />
+			<input type="text" name="descricao" id="descricao" size="20" /><br />
+
+			<label for="preco">Preço:</label><br /> 
+			<input type="number"name="preco" id="preco" size="20" /><br /> 
+			<label for="fabricante">Fabricante:</label><br />
+			<input type="text" name="fabricante" id="fabricante" size="20" /><br />
+			<br /> <input type="submit" value="Enviar">
+		</form>
+		${mensagem}
+
+		<div class="form-group">
+			<label for="email">Código</label> <input type="number"
+				class="form-control" name="codigo" id="codigo">
+		</div>
+		<div class="form-group">
+			<label for="pwd">Password:</label> <input type="password"
+				class="form-control" id="pwd">
+		</div>
+
+		<div class="input-group">
+			<span class="input-group-addon">$</span> <input type="text"
+				class="form-control" aria-label="Amount (to the nearest dollar)">
+			<span class="input-group-addon">.00</span>
+		</div>
+		<button type="submit" class="btn btn-default">Submit</button>
+	</section>
+
+	<footer class="footer">
+		<p>Desenvolvido para os estagiários da Senior Solution</p>
+		<p>Copyright 2017 - Todos os direitos reservados</p>
+	</footer>
+</body>
+</html>

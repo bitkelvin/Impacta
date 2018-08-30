@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indexed DB</title>
+</head>
+<body>
+	<form action="">
+		<div id="mensagemdb"></div>
+		<div>
+			<label>Nome:</label>
+			<input type="text" id="nome" name="nome"/>
+		</div>
+	</form>
+</body>
+</html>

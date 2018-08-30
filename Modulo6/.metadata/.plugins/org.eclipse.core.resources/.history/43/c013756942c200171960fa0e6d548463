@@ -1,0 +1,31 @@
+*{
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body{
+	background-color: rgb(235,235,216);
+}
+
+.container{
+	margin: 80px 50px 50px 50px;
+}
+
+
+
+.intro{
+	background: url(../img/inicio.jpeg) center center fixed;
+	background-size: cover;
+	padding: 220px 0;
+	margin-top: 40px;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+.footer{
+	background: url(../img/rodape.jpg) center center fixed;
+	background-size: cover;
+	color: white;
+	padding: 30px;
+	text-align: center;
+}

@@ -1,0 +1,9 @@
+body{
+	padding: 20px;
+	background-color: rgb(235,235,216);
+}
+
+.fundo{
+	background-color: lightyellow;
+	border-color: yellow;
+}

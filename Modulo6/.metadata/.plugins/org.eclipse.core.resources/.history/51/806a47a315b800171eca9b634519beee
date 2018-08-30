@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indexed DB</title>
+</head>
+<body>
+	<form action="">
+		<div id="mensagemdb"></div>
+		<div>
+			<label>Nome:</label>
+			<input type="text" id="nome" name="nome"/>
+		</div>
+		
+		<div>
+			<label>Telefone:</label>
+			<input type="tel" id="telefone" name="telefone"/>
+		</div>
+		
+		<input type="button" id="btnEnviar" value="Enviar">
+		
+		<hr/>
+		
+		<h2>Listagem de Pessoas</h2>
+		
+		<input type="button" id="btnListar" value="Listar Pessoas"><br/>
+		
+		<div>
+			<ul id="listaPessoas"></ul>
+		</div>
+	</form>
+		
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript"></script>
+</body>
+</html>

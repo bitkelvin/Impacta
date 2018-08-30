@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apresentação dos Produtos</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="css/produtos.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" style="background-color: lightyellow;;">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle"
+				 data-toggle="collapse"
+				 data-target=".navbar-collapse">
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Impacta RH</a>
+			</div>
+			
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#treinamento">Treinamento</a></li>
+					<li><a href="#consultoria">Consultoria</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="row">
+		<div class="col-xs-12">
+			<div id="slides" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#slides" data-slide-to="0" class="active"></li>
+					<li data-target="#slides" data-slide-to="1"></li>
+					<li data-target="#slides" data-slide-to="2"></li>
+				</ol>
+				
+				<!-- conteudo dos slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						 <img src="img/carousel01.jpg" />
+					</div>
+					<div class="item">
+						 <img src="img/carousel02.jpg" />
+					</div>
+					<div class="item">
+						 <img src="img/carousel03.jpg" />
+					</div>
+				</div>
+				
+				<a class="left carousel-control" href="#slides" role="button"
+				 	data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				 	<span class="sr-only">Anterior</span>
+				 </a>
+				 
+				 <a class="right carousel-control" href="#slides" role="button"
+				 	data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				 	<span class="sr-only">Próxima</span>
+				 </a>
+				
+				<div class="container body-content clearfix">
+					<section id="treinamento">
+						<h1>Treinamentos</h1>
+						<p>
+							A Empresa oferece treinamentos em diversas áreas,
+							nas seguintes modalidades:
+						</p>
+						<ul>
+							<li>Presencial</li>
+							<li>Online</li>
+							<li><i>In-company</i></li>
+						</ul>
+						
+						<div class="row center-image">
+							<div class="col-md-4">
+								<h3>Presencial</h3>
+								<img src="img/curso-presencial.jpg" class="img-circle margin-image" />
+								<p>
+									Nesta modalidade os cursos são oferecidos em nossa unidade
+									 localizada na Av. Paulista.
+									 Existem diversas opções de horários.<br/>
+									 Consultar a grade de horários para maiores informações.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<h3>Online</h3>
+								<img src="img/curso-online.jpg" class="img-circle margin-image">
+								<p>
+									Não tem tempo de ir até a nossa unidade?
+									Necessita estudar, e possui horários diversificados?
+									Temos treinamentos também na modalidade<i>online</i>.<br/>
+									Assim você estuda na hora e nas datas que estiver disponível.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<h3><i>In-company</i></h3>
+								<img src="img/curso-incompany.jpg" class="img-circle margin-image">
+								<p>
+									Se sua empresa necessita de treinamentos personalizados, 
+									atendendo a necessidades especificas, temos uma equipe
+									altamente capacitada para ir até sua empresa e levar o 
+									conteudo que voce precisa.
+								</p>
+							</div>
+						</div>
+						
+					</section>
+					
+					<section id="consultoria">
+						
+					</section>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+</body>
+</html>

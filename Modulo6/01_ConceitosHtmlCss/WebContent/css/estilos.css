@@ -1,0 +1,39 @@
+body {
+	background-color: lightyellow;
+}
+
+.margem {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 25px;
+}
+
+/* seletor de classe */
+.nav {
+	font-family: Verdana Tahoma;
+	font-size: 30px;
+	background-color: #00CED1;
+}
+
+.section {
+	border: 1px solid #8B4513;
+	color: blue;
+	border-radius: 15px;
+}
+
+header {
+	font-weight: bold;
+	color: #BC8F8F;
+}
+
+article {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+footer {
+	font-size: 10px;
+	background-color: #696969;
+	color: white;
+	text-align: center;
+}

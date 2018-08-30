@@ -1,0 +1,15 @@
+127.0.0.1 - - [29/Sep/2017:01:21:17 -0300] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:21:19 -0300] "GET /02_VendasJPA/cadClientes.jsp HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:21:27 -0300] "GET /02_VendasJPA/cadClientes.jsp HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:21:37 -0300] "POST /02_VendasJPA/clientes HTTP/1.1" 500 13026
+127.0.0.1 - - [29/Sep/2017:01:22:10 -0300] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:22:11 -0300] "GET /02_VendasJPA/WEB-INF/classes/META-INF/persistence.xml HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:22:26 -0300] "GET /02_VendasJPA/cadClientes.jsp HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:22:37 -0300] "POST /02_VendasJPA/clientes HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:22:45 -0300] "POST /02_VendasJPA/clientes HTTP/1.1" 200 530
+127.0.0.1 - - [29/Sep/2017:01:32:24 -0300] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:32:24 -0300] "GET /02_VendasJPA/cadClientes.jsp HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:32:35 -0300] "POST /02_VendasJPA/clientes HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:32:57 -0300] "POST /02_VendasJPA/clientes HTTP/1.1" 200 587
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:44:46 -0300] "POST /02_VendasJPA/clientes HTTP/1.1" 200 586
+0:0:0:0:0:0:0:1 - - [29/Sep/2017:01:44:55 -0300] "POST /02_VendasJPA/clientes HTTP/1.1" 200 530

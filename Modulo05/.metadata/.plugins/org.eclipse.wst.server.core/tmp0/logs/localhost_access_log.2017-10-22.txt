@@ -1,0 +1,16 @@
+127.0.0.1 - - [22/Oct/2017:23:25:25 -0200] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:34 -0200] "GET /01_LivrariaWeb/admin/cadLivros.faces HTTP/1.1" 200 10227
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:34 -0200] "GET /01_LivrariaWeb/javax.faces.resource/core.js.faces;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?ln=primefaces&v=6.1 HTTP/1.1" 200 31198
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/components.js.faces;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?ln=primefaces&v=6.1 HTTP/1.1" 200 380560
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/fileupload/fileupload.js.faces;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?ln=primefaces&v=6.1 HTTP/1.1" 200 32785
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/jquery/jquery-plugins.js.faces;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?ln=primefaces&v=6.1 HTTP/1.1" 200 248533
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/jquery/jquery.js.faces;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?ln=primefaces&v=6.1 HTTP/1.1" 200 107785
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/fileupload/fileupload.css.faces;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?ln=primefaces&v=6.1 HTTP/1.1" 200 2313
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/components.css.faces;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?ln=primefaces&v=6.1 HTTP/1.1" 200 78618
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/theme.css.faces?ln=primefaces-aristo HTTP/1.1" 200 24314
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/admin/imagem;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?id=1&pfdrid_c=true HTTP/1.1" 200 983350
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/admin/imagem;jsessionid=9C6BC8E1AB11E394432A867DA5E5DE5E?id=5&pfdrid_c=true HTTP/1.1" 200 180453
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /01_LivrariaWeb/javax.faces.resource/images/ui-icons_38667f_256x240.png.faces?ln=primefaces-aristo HTTP/1.1" 200 4369
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:25:35 -0200] "GET /favicon.ico HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:28:52 -0200] "GET /01_LivrariaWeb/admin/cadLivros.faces HTTP/1.1" 200 925
+0:0:0:0:0:0:0:1 - - [22/Oct/2017:23:28:52 -0200] "GET /01_LivrariaWeb/javax.faces.resource/estilos.css.faces?ln=css HTTP/1.1" 200 1189

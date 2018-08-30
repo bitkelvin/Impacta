@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Visualizar elementos armazenados</h1>
+	
+	<input type="button" id="botao" value="Clique para visualizar"/>
+	
+	<ul id="lista"></ul>
+	
+	<script type="text/javascript">
+	
+		sessionStorage.setItem("curso", "Javascript");	
+		sessionStorage.setItem("empresa", "Senior Solution");	
+		sessionStorage.setItem("escola", "Impacta");
+		
+		var cursos = ["Excel", "PowerPoint", "Android", "Java"];
+		
+		for(var i = 0; i < cursos.length; i++){
+			sessionStorage.setItem("chave" + i, cursos[i]);
+			
+			console.log("CURSOS");
+		}
+		
+		var botao = document.getElementById("botao");
+		var lista = document.getElementById("lista");
+		
+		console.log(sessionStorage);
+		
+		botao.addEventListener("click", function() {
+			//limpar os elementos da lista
+	
+			console.log("Test");
+			
+			while(lista.firstChild){
+				lista.removeChild(lista.firstChild);
+			}
+			
+			for(var i = 0; i < sessionStorage.length; i++){
+				var chave = sessionStorage.key(i);
+				var valor = sessionStorage.getItem(chave);
+				
+				var item = document.createElement("li");
+				item.textContent = chave + ": " + valor;
+				lista.appendChild(item);
+			}
+		});
+	</script> 
+</body>
+</html>

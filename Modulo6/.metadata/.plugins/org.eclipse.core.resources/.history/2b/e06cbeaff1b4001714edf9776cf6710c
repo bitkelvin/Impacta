@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+
+$(document).ready(function(){
+	var cursos = ["Java","PHP","HTML", "Python"];
+	
+	for(var i = 0; i < cursos.length; i++){
+		$("#lista").append("<option value=" + i + ">" + cursos[i] + "</option>");
+	}
+	
+	$("#btn_enviar").click(function(){
+		//obetendo o conteúdo dos componentes
+		var nome = $("#nome").val();
+		var idade = $("#idade").val();
+		var curso = $("lista").val();
+		
+		var resultado;
+		
+		if($("#resposta").hasClass("erro")){
+			$("resposta").removeClass("erro");
+		}
+	});
+});

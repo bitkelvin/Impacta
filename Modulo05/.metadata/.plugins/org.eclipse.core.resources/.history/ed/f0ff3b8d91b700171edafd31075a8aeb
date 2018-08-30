@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta charset="UTF-8"></meta>
+	<title>Cadastro de Livros</title>
+</h:head>
+
+<h:body>
+	<ui:composition template="layout.xhtml">
+
+			<h:form enctype="multipart/form-data">
+			
+			<p:link value="Voltar" outcome="menu"/>
+			
+			<p:growl id="messages" showDetail="true"/>
+				<p:panelGrid columns="2">
+					<f:facet name="header">
+						<h2>Cadastro de Livros</h2>
+					</f:facet>
+				
+					<p:outputLabel value="Código" />
+					<p:inputText value="#{bLivro.livro.codigo}" />
+	
+	
+					<p:outputLabel value="Título" />
+					<p:inputText value="#{bLivro.livro.titulo}" />
+	
+					<p:outputLabel value="Autor" />
+					<p:inputText value="#{bLivro.livro.autor}" />
+	
+					<p:outputLabel value="Data Publicação" />
+					<p:calendar value="#{bLivro.livro.dataPublicacao}" pattern="dd/MM/yyyy" showOn="button"/>
+	
+					<p:outputLabel value="Preço" />
+					<p:inputText value="#{bLivro.livro.preco}" />
+	
+					<p:outputLabel value="Figura" />
+					<p:fileUpload value="#{bLivro.uploadedFile}" mode="simple" skinSimple="true"/>
+	
+					<p:outputLabel />
+					<p:commandButton value="Incluir" ajax="false" action="#{bLivro.incluirLivro()}" process="@form" update="@form"/>
+				</p:panelGrid>
+			
+			</h:form>
+	
+			<p:messages showSummary="true" showDetail="true"></p:messages>
+			
+			<p:separator />
+			
+			<h:form>
+				
+				<p:dataTable value="#{bLivro.listaLivros}" var="livro">
+					<p:column>
+						<f:facet name="header">
+							<b>CÓDIGO</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.codigo}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>TITULO</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.titulo}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>AUTOR</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.autor}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>DATAPUB</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.dataPublicacao}">
+						<f:convertDateTime pattern="dd/MM/yyyy" />
+						</p:outputLabel>
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>PRECO</b>
+						</f:facet>
+						<p:outputLabel value="#{livro.preco}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>IMAGEM</b>
+						</f:facet>
+						<p:graphicImage value="imagem?id=#{livro.codigo}" width="150"/>
+					</p:column>
+				</p:dataTable>
+			</h:form>
+			
+	</ui:composition>
+</h:body>
+</html>

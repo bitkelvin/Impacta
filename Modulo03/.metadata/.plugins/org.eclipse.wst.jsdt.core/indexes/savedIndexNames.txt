@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+549489893.index
+4223038983.index
+3068185952.index
+1125328227.index
+2054047752.index
+3308752867.index

@@ -1,0 +1,131 @@
+2017-09-30 00:07:05,981 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-30 00:08:03,079 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenjpa:01_ConceitosJPA:1.0.0-SNAPSHOT @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\pom.xml.
+2017-09-30 00:08:03,083 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenweb:02_VendasJPA:1.0.0 @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\pom.xml.
+2017-09-30 00:08:10,409 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:08:10,461 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:08:10,479 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:08:10,487 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\src\test\resources
+2017-09-30 00:08:14,871 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:08:14,905 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:08:14,911 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:08:14,920 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\src\test\resources
+2017-09-30 00:08:15,126 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenweb:02_VendasJPA:1.0.0 @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\pom.xml.
+2017-09-30 00:08:20,258 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:08:20,284 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:08:20,300 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:08:20,316 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:09:25,747 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:09:25,765 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:09:25,770 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:09:25,779 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:14:30,907 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenweb:02_VendasJPA:1.0.0 @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\pom.xml.
+2017-09-30 00:14:32,229 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2017-09-30 00:14:32,463 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2017-09-30 00:14:32,643 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar
+2017-09-30 00:14:33,538 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar
+2017-09-30 00:14:34,490 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:14:34,506 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-30 00:14:34,513 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:14:34,524 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:14:34,525 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 02_VendasJPA
+2017-09-30 00:14:34,526 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 02_VendasJPA
+2017-09-30 00:14:34,529 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2017-09-30 00:14:34,546 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:14:36,399 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:14:36,427 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:14:36,439 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:14:36,455 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:15:39,526 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:15:39,536 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:15:39,540 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:15:39,552 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:15:44,318 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:15:44,332 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:15:44,339 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:15:44,349 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:15:50,979 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:15:50,991 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:15:50,993 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:15:51,006 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:16:40,513 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:16:40,534 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:16:40,543 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:16:40,558 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:16:45,014 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:16:45,027 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:16:45,029 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:16:45,043 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:16:49,341 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:16:49,359 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:16:49,365 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:16:49,379 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:19:19,516 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:19:19,524 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-30 00:19:19,526 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:19:19,537 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:27:28,051 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-30 00:27:30,725 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenweb:02_VendasJPA:1.0.0 @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\pom.xml.
+2017-09-30 00:27:31,251 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenjpa:01_ConceitosJPA:1.0.0-SNAPSHOT @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\pom.xml.
+2017-09-30 00:27:33,403 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /02_VendasJPA/src
+2017-09-30 00:27:33,410 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /02_VendasJPA/src overlaps with sources folder /02_VendasJPA/src
+2017-09-30 00:27:33,415 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /02_VendasJPA/src/test/java because it overlaps with /02_VendasJPA/src
+2017-09-30 00:27:34,080 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 02_VendasJPA
+2017-09-30 00:27:34,092 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2017-09-30 00:27:35,055 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:27:35,067 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-30 00:27:35,073 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:27:35,083 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\src\test\resources
+2017-09-30 00:27:35,388 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:27:35,396 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:27:35,410 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:27:35,425 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:27:35,426 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 02_VendasJPA
+2017-09-30 00:27:35,426 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 02_VendasJPA
+2017-09-30 00:27:35,431 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:29:42,276 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:29:42,285 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-30 00:29:42,287 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:29:42,296 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:30:08,134 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:30:08,142 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-30 00:30:08,149 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:30:08,161 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 00:31:40,937 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:31:40,949 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 00:31:40,954 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 00:31:40,962 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-09-30 11:01:26,080 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-30 11:01:46,618 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 11:01:46,662 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-30 11:01:46,731 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-30 11:01:46,739 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-10-01 01:34:46,406 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-01 01:34:46,517 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-01 01:34:46,519 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-01 01:34:46,528 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-10-01 10:41:09,873 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-01 10:41:46,661 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-01 10:41:46,761 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-01 10:41:46,891 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-01 10:41:46,899 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-10-01 22:50:35,579 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-01 22:50:46,824 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-01 22:50:46,845 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-01 22:50:46,852 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-01 22:50:46,862 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources
+2017-10-19 22:35:32,122 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-19 22:35:43,167 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenjpa:01_ConceitosJPA:1.0.0-SNAPSHOT @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\pom.xml.
+2017-10-19 22:35:44,523 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-19 22:35:44,564 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-19 22:35:44,608 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-19 22:35:44,617 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\src\test\resources
+2017-10-19 22:35:46,049 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenjpa:01_ConceitosJPA:1.0.0-SNAPSHOT @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\pom.xml.
+2017-10-19 22:35:46,196 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.com.seniorsolution.mavenweb:02_VendasJPA:1.0.0 @ C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\pom.xml.
+2017-10-19 22:35:51,312 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-19 22:35:51,321 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-19 22:35:51,323 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-19 22:35:51,330 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\01_ConceitosJPA\src\test\resources
+2017-10-19 22:35:51,398 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-19 22:35:51,408 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-19 22:35:51,414 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-19 22:35:51,425 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TIO BIGA\FACULDADE\TREINAMENTOS\Impacta Exercs\Modulo03\02_VendasJPA\src\test\resources

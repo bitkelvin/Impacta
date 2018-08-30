@@ -1,0 +1,79 @@
+package br.com.seniorsolution.controllers;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import br.com.seniorsolution.entidades.Usuario;
+import br.com.seniorsolution.jdbc.JdbcUsuarioDao;
+import br.com.seniorsolution.utils.Utilitarios;
+
+@Controller
+public class UsuarioController {
+
+	@RequestMapping(value= {"/","/login"})
+	public String login() {
+		return "validar";
+	}
+
+	@RequestMapping(value="/validarUsuario",method=RequestMethod.POST)
+	public ModelAndView login(Usuario usuario, HttpSession session) {
+		ModelAndView model = new ModelAndView();
+		try {
+			ApplicationContext ctx = 
+					new ClassPathXmlApplicationContext("beanJdbc.xml");
+				
+				JdbcUsuarioDao dao = (JdbcUsuarioDao) ctx.getBean("jdbcUsuarioDao");
+				if (dao.validarUsuario(
+						usuario.getNome(), 
+						Utilitarios.gerarMD5(usuario.getSenha())) != null) {
+					
+					//Usuario userBuscado = dao.validarUsuario(usuario.getNome(), usuario.getSenha());
+					
+					session.setAttribute("user", userBuscado);
+					model.setViewName("home/menu");
+				} else {
+					throw new Exception();
+					//model.addObject("mensagem", "Usuário ou senha inválidos");					
+				}
+				
+		} catch (Exception e) {
+			model.addObject("mensagem", "Usuario ou senha inválidos");
+			model.setViewName("validar");
+		}
+		return model;
+	}
+	
+	@RequestMapping("/usuario/cadastro")
+	public String incluir() {
+		return "cadastros/incluirUsuario";
+	}
+	
+	@RequestMapping(value="/cadusuario",method=RequestMethod.POST)
+	public ModelAndView incluir(Usuario usuario) {
+		ModelAndView model = new ModelAndView();
+		try {
+			ApplicationContext ctx = 
+					new ClassPathXmlApplicationContext("beanJdbc.xml");
+				
+				JdbcUsuarioDao dao = (JdbcUsuarioDao) ctx.getBean("jdbcUsuarioDao");
+				usuario.setSenha(Utilitarios.gerarMD5(usuario.getSenha()));
+				
+				dao.incluirUsuario(usuario);
+				
+				model.addObject("mensagem", "Usuário " 
+						+ usuario.getNome() + " incluído.");
+				model.setViewName("paginas/sucesso");
+				
+		} catch (Exception e) {
+			model.addObject("mensagem", e.getMessage());
+			model.setViewName("paginas/erro");
+		}
+		return model;
+	}
+}

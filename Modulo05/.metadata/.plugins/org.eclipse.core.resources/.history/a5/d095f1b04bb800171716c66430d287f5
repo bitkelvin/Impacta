@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta charset="UTF-8"></meta>
+	<title>Cadastro de Revisões</title>
+</h:head>
+<h:body>
+	<ui:composition template="layout.xhtml">
+		<ui:define name="conteudo">
+
+			<h:form>
+			
+				<p:panelGrid columns="2">
+					<f:facet name="header">
+						<h2><p:outputLabel value="Cadastro de Revisões"></p:outputLabel></h2>
+					</f:facet>
+				
+					<p:outputLabel value="Livro" />
+					<p:selectOneMenu value="#{revBean.codLivro}">
+						<f:selectItems value="#{bLivro.listaLivros}" var="livro" itemLabel="#{livro.titulo}" itemValue="#{livro.codigo}" />
+					</p:selectOneMenu>
+	
+					<p:outputLabel value="Responsável" />
+					<p:inputText value="#{revBean.revisao.responsavel}" />
+	
+					<p:outputLabel value="Data" />
+					<p:calendar value="#{revBean.revisao.data}" pattern="dd/MM/yyyy" showOn="button"/>
+	
+					<p:outputLabel value="Descricao" />
+					
+					<p:inputText value="#{revBean.revisao.descricao}" />
+					
+					<p:outputLabel></p:outputLabel>
+					<p:commandButton process="@form" update="@form" value="Incluir" action="#{revBean.incluirRevisao()}" />
+				</p:panelGrid>
+
+			</h:form>
+	
+			<p:messages showSummary="true" showDetail="true"></p:messages>
+			
+			<p:separator />
+			
+			<h:form>
+				
+				<p:dataTable value="#{revBean.listaRevisoes}" var="revisao">
+					<p:column>
+						<f:facet name="header">
+							<b>CÓDIGO</b>
+						</f:facet>
+						<p:outputLabel value="#{revisao.id}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>TITULO</b>
+						</f:facet>
+						<p:outputLabel value="#{revisao.livro.codigo}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>AUTOR</b>
+						</f:facet>
+						<p:outputLabel value="#{revisao.descricao}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>DATAPUB</b>
+						</f:facet>
+						<p:outputLabel value="#{revisao.data}">
+						<f:convertDateTime pattern="dd/MM/yyyy" />
+						</p:outputLabel>
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>PRECO</b>
+						</f:facet>
+						<p:outputLabel value="#{revisao.responsavel}" />
+					</p:column>
+					<p:column>
+						<f:facet name="header">
+							<b>IMAGEM</b>
+						</f:facet>
+						<p:graphicImage value="imagem?id=#{livro.codigo}" width="150"/>
+					</p:column>
+				</p:dataTable>
+				
+			</h:form>
+		</ui:define>
+	</ui:composition>
+
+</h:body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Local Storage</h1>
+	<label>Escreva um texto:</label>
+
+	<input type="text" id="txt_origem" /><br/>
+	<input type="button" id="salvar" value="Salvar - localStorage"><br/>
+
+	<a href="local_storage_destino.html">Visualizar destino</a>
+	
+	<script type="text/javascript">
+		
+		var salvar = document.getElementById("salvar");
+		
+		salvar.addEventListerner("click", function(){
+			var texto = document.getElementById("txt_origem").value;
+			localStorage.setItem("local", texto);
+			alert("Valor " + texto + " armazenado com sucesso!");
+			console.log(texto)
+		});
+		
+	</script>
+	
+</body>
+</html>

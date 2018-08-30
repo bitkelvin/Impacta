@@ -1,0 +1,15 @@
+function exibir(){
+	/**
+	 * Definindo variaveis
+	 */
+	var nome = document.getElementById("nome").value;
+	var idade = document.getElementById("idade").value;
+
+	var mensagem = "Nome: " + nome + ", Idade: " + idade;
+
+	alert(mensagem);
+}
+
+var botao = document.getElementById("botao")
+
+botao.addEventListerner("click", exibir());

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Session Storage</h1>
+	<label>Escreva um texto:</label>
+
+	<input type="text" id="txt_origem" /><br/>
+	<input type="button" id="salvar" value="Salvar - sessionStorage"><br/>
+
+	<a href="session_storage_destino.html">Visualizar destino</a><br/>
+	
+	<input type="button" id="verificar" value="Verificar"/><br/>
+	<div id="resposta"></div>
+	
+	<script type="text/javascript">
+		
+		var salvar = document.getElementById("salvar");
+		
+		salvar.addEventListener("click", function(){
+			var texto = document.getElementById("txt_origem").value;
+			sessionStorage.setItem("session", texto);
+			alert("Valor " + texto + " armazenado com sucesso!");
+			console.log(texto)
+		});
+		
+	</script>
+	
+</body>
+</html>

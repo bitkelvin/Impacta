@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Sep 22 00:36:31 BRT 2017
+org.eclipse.jst.j2ee.server\:01_ConceitosDependencia=WEB-INF/lib/01_ConceitosDependencia-1.0.0.jar
+org.eclipse.jst.j2ee.server\:04_ExemploMaven=WEB-INF/lib/04_ExemploMaven-1.1.jar

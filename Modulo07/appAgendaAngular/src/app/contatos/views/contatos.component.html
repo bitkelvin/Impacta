@@ -1,0 +1,62 @@
+<div class="conteiner margem">
+    <h1>Contatos</h1>
+    <hr/>
+    <div class="row">
+        <div class="col-md-5">
+            <ul class="list_group">
+                <label for="nome">Lista de Contatos:</label>
+                
+                <div class="form-group">
+                    <input type="text" #busca (keyup)="0" class="form-control" />
+                    <li *ngFor="let contato of listaContatos | sublista:busca.value" (click)="selecionar(contato)" class="list-group-item">
+                        <span [class.selecionado]="contato === contatoSelecionado" class="badge">{{contato.email}}</span>
+                        <a [routerLink]="['/contato']">{{contato.nome}}</a>
+                    </li>
+                </div>
+                
+
+                <button type="button" (click)="novo()" class="btn btn-info">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </button>
+            </ul>
+        </div>
+
+        <!-- incluindo o formulario somente se houver elemento selecionado -->
+        
+        <div *ngIf="contatoSelecionado">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" [(ngModel)]="contatoSelecionado.nome" class="form-control" id="nome" name="nome"/>
+                </div>
+        
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" [(ngModel)]="contatoSelecionado.telefone"  class="form-control" id="telefone" name="telefone"/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="idade">Idade:</label>
+                    <input type="number" [(ngModel)]="contatoSelecionado.idade"  class="form-control" id="idade" name="idade"/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" [(ngModel)]="contatoSelecionado.email" class="form-control" id="email" name="email"/>
+                </div>
+        
+                <div>
+                    <button (click)="incluir(contatoSelecionado)" type="button" class="btn btn-info">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        Incluir
+                    </button>
+                    <button (click)="remover(contatoSelecionado)" type="button" class="btn btn-info" style="background-color: red">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        Remover
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

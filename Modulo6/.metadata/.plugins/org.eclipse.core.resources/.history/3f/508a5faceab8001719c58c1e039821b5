@@ -1,0 +1,53 @@
+nav{
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(26,173,207);
+}
+
+.menu li{
+	float: left;
+}
+
+.menu li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	padding-right: 10px; 
+}
+
+.menu li a:hover{
+	background-color: #DFDFDF;
+	color: #003264;
+}
+
+.logo{
+	background-image: url(../img/logo.jpg);
+	width: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

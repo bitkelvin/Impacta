@@ -1,0 +1,13 @@
+function exibir(){
+	/**
+	 * Definindo variaveis
+	 */
+	var nome = document.getElementById("nome");
+	var idade = document.getElementById("idade");
+	var botao;
+
+	var mensagem = "Nome: " + nome + ", Idade: " + idade;
+
+	alert(mensagem);
+}
+

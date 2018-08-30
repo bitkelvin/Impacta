@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Produtos</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="css/estilos.css" rel="stylesheet">
+<link href="css/menu.css" rel="stylesheet">
+<link href="css/produtos.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="menu" id="menuTopo">
+				<li><a href="#"><span class="glyphicon glyphicon-gift"></span></a></li>
+				<li><a href="cadastro.jsp">Cadastro de Produtos</a></li>
+				<li><a href="consulta.jsp">Buscar</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+
+		<h1>Cadastro de Produtos</h1>
+		<form action="produtos" method="post">
+			<label for="codigo">Código:</label><br /> <input type="number"
+				name="codigo" id="codigo" size="5" /><br /> <label for="descricao">Descrição:</label><br />
+			<input type="text" name="descricao" id="descricao" size="20" /><br />
+
+			<label for="preco">Preço:</label><br /> <input type="number"
+				name="preco" id="preco" size="20" /><br /> <label for="fabricante">Fabricante:</label><br />
+			<input type="text" name="fabricante" id="fabricante" size="20" /><br />
+			<br /> <input type="submit" value="Enviar">
+		</form>
+		${mensagem}
+
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon1">@</span> <input
+				type="text" class="form-control" placeholder="Username"
+				aria-describedby="basic-addon1">
+		</div>
+
+		<div class="input-group">
+			<input type="text" class="form-control"
+				placeholder="Recipient's username" aria-describedby="basic-addon2">
+			<span class="input-group-addon" id="basic-addon2">@example.com</span>
+		</div>
+
+		<div class="input-group">
+			<span class="input-group-addon">$</span> <input type="text"
+				class="form-control" aria-label="Amount (to the nearest dollar)">
+			<span class="input-group-addon">.00</span>
+		</div>
+
+		<label for="basic-url">Your vanity URL</label>
+		<div class="input-group">
+			<span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+			<input type="text" class="form-control" id="basic-url"
+				aria-describedby="basic-addon3">
+		</div>
+	</section>
+
+	<footer class="footer">
+		<p>Desenvolvido para os estagiários da Senior Solution</p>
+		<p>Copyright 2017 - Todos os direitos reservados</p>
+	</footer>
+</body>
+</html>

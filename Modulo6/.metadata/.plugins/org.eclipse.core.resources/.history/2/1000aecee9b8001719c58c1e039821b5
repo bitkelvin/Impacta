@@ -1,0 +1,32 @@
+section{
+	padding: 4% 0% 6% 0%;	
+}
+
+.carousel-inner > .item > img{
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.body-content{
+	clear: both;
+	padding: 15px;
+}
+
+/*nossas classes*/
+.center-image{
+	text-align: center;
+}
+
+.margin-image{
+	margin: 10px;	
+}
+
+.footer{
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	background-color: #7F7F7F;
+	color: white;
+}

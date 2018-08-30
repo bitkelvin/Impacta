@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:00:05:06 -0300] "POST /02_VendasJPA/consultas HTTP/1.1" 200 1006
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:00:05:09 -0300] "POST /02_VendasJPA/consultas HTTP/1.1" 200 1006

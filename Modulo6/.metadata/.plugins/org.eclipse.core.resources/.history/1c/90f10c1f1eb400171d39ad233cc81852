@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exemplo da propriedade display</title>
+<style type="text/css">
+	.exemplo{
+		color: #FFF;
+	}
+	
+	*{
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	
+	body{
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+	ul, ol, li{
+		list-style: none;
+	}
+	
+	.exemplo-item{
+		width: 25%;
+		height: 150px;	
+	}
+	
+	.exemplo-tem-primeiro{
+		background-color: #FAA116;
+	}
+	
+	.exemplo-tem-segundo{
+		background-color: #57C7C3;
+	}
+	
+	.exemplo-tem-terceiro{
+		background-color: #3B97D3;
+	}
+	
+</style>
+</head>
+<body>
+	<ul class="">
+		<li class="">Primeiro</li>
+		<li class="">Segundo</li>
+		<li class="">Terceiro</li>
+	</ul>
+</body>
+</html>

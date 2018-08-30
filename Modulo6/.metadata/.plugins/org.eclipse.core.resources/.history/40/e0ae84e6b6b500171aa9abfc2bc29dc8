@@ -1,0 +1,5 @@
+.carousel-inner > .item > img{
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+}

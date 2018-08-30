@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Session Storage - Destino</h1>
+	<input type="button" id="ler" value="Ler - sessionStorage" /><br/>
+	<div id="resposta"></div>
+	
+	<script type="text/javascript">
+		var ler = document.getElementById("ler");
+		
+		ler.addEventListener("click", function(){
+			var texto = sessionStorage.getItem("session");
+			var resposta = document.getElementById("resposta");
+			resposta.innerHTML = "Valor armazenado: " + texto;
+		});
+	</script>
+</body>
+</html>

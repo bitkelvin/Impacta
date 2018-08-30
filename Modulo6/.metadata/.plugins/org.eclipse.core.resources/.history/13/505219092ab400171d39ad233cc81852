@@ -1,0 +1,12 @@
+function exibir(){
+	/**
+	 * Definindo variaveis
+	 */
+	var nome;
+	var idade;
+
+	var mensagem = "Nome: " + nome + ", Idade: " + idade;
+
+	alert(mensagem);
+}
+
